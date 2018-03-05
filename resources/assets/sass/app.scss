@@ -1,6 +1,7 @@
 @tailwind preflight;
 
 
+
 /* BUTTONS */
 @import 'components/buttons';
 
@@ -15,6 +16,9 @@
 
 /* COLORS */
 @import 'components/colors';
+
+/* FORMS */
+@import 'components/forms';
 
 
 @tailwind utilities;
