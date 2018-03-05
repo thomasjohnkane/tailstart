@@ -1793,7 +1793,7 @@ function identifierForContextKey(key) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./search_controller.js": 33
+	"./hello_controller.js": 33
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -1838,26 +1838,30 @@ var _class = function (_Controller) {
     }
 
     _createClass(_class, [{
-        key: "connect",
-        value: function connect() {
-            this.load();
+        key: "greet",
+        value: function greet() {
+            this.outputTarget.textContent = "Hello, " + this.nameTarget.value + "!";
         }
-    }, {
-        key: "load",
-        value: function load() {
-            var _this2 = this;
 
-            fetch(this.data.get("url")).then(function (response) {
-                return response.text();
-            }).then(function (html) {
-                _this2.element.innerHTML = html;
-            });
-        }
+        // Example to load external content into view
+        // connect() {
+        //     this.load()
+        // }
+
+        // load() {
+        //     fetch(this.data.get("url"))
+        //         .then(response => response.text())
+        //         .then(html => {
+        //             this.element.innerHTML = html
+        //         })
+        // }
+
     }]);
 
     return _class;
 }(__WEBPACK_IMPORTED_MODULE_0_stimulus__["b" /* Controller */]);
 
+_class.targets = ["name", "output"];
 /* harmony default export */ __webpack_exports__["default"] = (_class);
 
 /***/ }),
