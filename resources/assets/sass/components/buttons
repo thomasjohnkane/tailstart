@@ -1,0 +1,43 @@
+.btn {
+  @apply .font-bold .rounded-lg .py-3 .px-8 .uppercase;
+}
+
+.btn-blue {
+  @apply .bg-blue .text-white;
+}
+
+.btn-blue:hover {
+  @apply .bg-blue-dark;
+}
+
+.btn-grey {
+  @apply .bg-grey .text-grey-darkest;
+}
+
+.btn-grey:hover {
+  @apply .bg-grey-dark;
+}
+
+.btn-grey-dark {
+  @apply .bg-grey-dark .text-grey-darkest;
+}
+
+.btn-grey:hover {
+  @apply .bg-grey-darker;
+}
+
+.btn-grey-darker {
+  @apply .bg-grey-darker .text-grey-darkest;
+}
+
+.btn-grey:hover {
+  @apply .bg-grey-darkest;
+}
+
+.btn-red {
+  @apply .bg-red .text-white;
+}
+
+.btn-red:hover {
+  @apply .bg-red-darker;
+}

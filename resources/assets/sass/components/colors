@@ -1,0 +1,57 @@
+.red-darkest {
+    background-color: darken(#c21734, 20%);
+    @apply .text-white
+}
+.red-darker {
+    background-color: darken(#c21734, 10%);
+    @apply .text-white
+}
+.red-dark {
+    background-color: darken(#c21734, 5%);
+    @apply .text-white
+}
+.red-default {
+    background-color: #c21734;
+    color: #ffffff;
+}
+.red-light {
+    background-color: lighten(#c21734, 5%);
+    @apply .text-white
+}
+.red-lighter {
+    background-color: lighten(#c21734, 10%);
+    @apply .text-white
+}
+.red-lightest {
+    background-color: lighten(#c21734, 20%);
+    @apply .text-white
+}
+
+.grey-darkest {
+    background-color: darken(#626264, 20%);
+    @apply .text-white
+}
+.grey-darker {
+    background-color: darken(#626264, 10%);
+    @apply .text-white
+}
+.grey-dark {
+    background-color: darken(#626264, 5%);
+    @apply .text-white
+}
+.grey-default {
+    background-color: #626264;
+    color: #ffffff;
+}
+.grey-light {
+    background-color: lighten(#6f6f71, 5%);
+    @apply .text-white
+}
+.grey-lighter {
+    background-color: lighten(#6f6f71, 10%);
+    @apply .text-white
+}
+.grey-lightest {
+    background-color: lighten(#6f6f71, 20%);
+    @apply .text-white
+}
